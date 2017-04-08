@@ -1,6 +1,6 @@
 {
   "name": "gulp-json5-to-json",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A gulp plugin to convert JSON5 to strict JSON.",
   "main": "index.js",
   "repository": {
