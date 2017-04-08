@@ -1,7 +1,5 @@
 # gulp-json5-to-json
 
-A gulp plugin to convert JSON5 to strict JSON.
-
 [![NPM Version][npm-image]][npm-url]
 
 ## Installation
