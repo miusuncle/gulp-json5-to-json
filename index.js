@@ -14,9 +14,12 @@ module.exports = (options = {}) => {
 			try {
 				obj = JSON5.parse(file.contents + '');
 			} catch (err) {
-				// Find the line causing error
 				const lines = err.text.split(/\n/);
-				for (let pos = 0, line = 0; pos < err.at && line < lines.length; line += 1) {
+
+				// Find the line causing error
+				let line = 0;
+
+				for (let pos = 0; pos < err.at && line < lines.length; line += 1) {
 					pos += lines[line].length;
 				}
 
