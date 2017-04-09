@@ -1,6 +1,7 @@
 # gulp-json5-to-json
 
 [![NPM Version][npm-image]][npm-url]
+[![Minimum Node.js Version][nodejs-image]][nodejs-url]
 
 ## Installation
 
@@ -31,3 +32,5 @@ gulp.task('default', () => {
 
 [npm-image]: https://img.shields.io/npm/v/gulp-json5-to-json.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/gulp-json5-to-json
+[nodejs-image]: https://img.shields.io/badge/Node.js-%3E%3D%206.0-669B64.svg?style=flat-square
+[nodejs-url]: https://nodejs.org/
